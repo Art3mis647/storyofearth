@@ -389,6 +389,9 @@ def menu():
         elif startinginput == 'start'.lower():
             clear()
             start()
+        elif startinginput == 'credits'.lower():
+            clear()
+            credits()
         else:
             slowprint('Invalid Command')
             time.sleep(3)
@@ -400,8 +403,10 @@ def name():
     while gradesnihilism:
         slowprint("Hello Earthling, I am 'Angry Moses', a time machine from outer space. What is your name?")
         name = input('')
+        clear()
         slowprint(f"Well, {name}, would you like to travel through time and see the Story of Earth?")
         selection = input('')
+        clear()
         if selection == 'yes'.lower():
             slowprint("Great! Now lets start!")
             clear()
