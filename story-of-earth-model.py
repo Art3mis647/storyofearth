@@ -360,6 +360,30 @@ def start():
         else: 
             mediumprint('Invalid Input')
     return
+def era():
+    slowprint("Eras:")
+    slowprint("========================================")
+    slowprint("Pre-Cambrian: 4.6-.541 Bya")
+    slowprint("Paleozoic: 541-252 Mya")
+    slowprint("Mesozoic: 252-65 Mya")
+    slowprint("Cenozoic: 65-0 Mya")
+    slowprint("Periods:")
+    slowprint("========================================")
+    slowprint("Hadean: 4.6-4 Bya")
+    slowprint("Archea: 4-2.5 Bya")
+    slowprint("Proterozoic: 2.5-.541 Bya")
+    slowprint("Cambrian: 541-485 Mya")
+    slowprint("Ordovician: 485-444 Mya")
+    slowprint("Silurian: 444-419 Mya")
+    slowprint("Devonian: 419-359 Mya")
+    slowprint("Carboniferous: 359-299 Mya")
+    slowprint("Permian: 299-252 Mya")
+    slowprint("Triassic: 252-201 Mya")
+    slowprint("Jurassic: 201-145")
+    slowprint("Cretacous: 145-65 Mya")
+    slowprint("Tertitiary: 65-2.6 Mya")
+    slowprint("Quarternary: 2.6-0 Mya.")
+    return
 def menu():
     amisane = False
     while amisane == False:
@@ -378,9 +402,10 @@ def menu():
         mediumprint("Commands:")
         mediumprint("=========================================================")
         mediumprint("'start': start screen")
-        mediumprint("'help': help manual")
-        mediumprint("'exit': exit program")
+        mediumprint("'help': help manual")     
         mediumprint("'credits': credit screen")
+        mediumprint("'reference': reference sheet (era/period times)")
+        mediumprint("'exit': exit program")
         startinginput = input('')
 
         if startinginput == 'exit'.lower():
@@ -395,6 +420,8 @@ def menu():
         elif startinginput == 'credits'.lower():
             clear()
             credits()
+        elif startinginput == 'reference'.lower():
+            era()
         else:
             slowprint('Invalid Command')
             time.sleep(3)
