@@ -82,7 +82,10 @@ def credits():
     slowprint("The Internet, for teaching me how to code.")
     slowprint("The Beatles, whos music kept me sane while coding this.\n")
     slowprint("Additionally, all of the following people helped in some way or another.")
-    slowprint("Juby, Celine, Maxwell, Theo, Urvi, Carissa, Otis, Ms. Nahar, Ms. Momeni, Mama G, PBL 9, the PBL 9 teachers, my dog, my parents, my extended family, Jesus Christ, that clerk at the 7-11, the Candy-Man, George Washington, Ibn Battuta, the country of Equatorial Guinea, and (ok i'm just making stuff up at this point)")
+    slowprint("Juby, Celine, Maxwell, Theo, Urvi, Carissa, Otis, Ms. Nahar, Ms. Momeni, Mama G, PBL 9, the PBL 9 teachers, my dog, my parents, my extended family, Jesus Christ, that clerk at the 7-11, the Candy-Man, George Washington, Ibn Battuta, the country of Equatorial Guinea, and (ok i'm just making stuff up at this point)\n")
+    slowprint("Press enter to leave this menu.")
+    input('')
+    clear()
 
 def formation():
     slowprint("It's New Year's day today, or 4.6 Bya, coincidentally the day earth formed! It's cold on this day in our world, but when Earth formed the temperature was very hot with temperatures averaging around 80°C.\n")
