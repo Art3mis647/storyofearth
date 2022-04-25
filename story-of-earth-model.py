@@ -361,6 +361,7 @@ def start():
             mediumprint('Invalid Input')
     return
 def era():
+    clear()
     slowprint("Eras:")
     slowprint("========================================")
     slowprint("Pre-Cambrian: 4.6-.541 Bya")
@@ -383,6 +384,7 @@ def era():
     slowprint("Cretacous: 145-65 Mya")
     slowprint("Tertitiary: 65-2.6 Mya")
     slowprint("Quarternary: 2.6-0 Mya.")
+    clear()
     return
 def menu():
     amisane = False
