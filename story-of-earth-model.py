@@ -439,6 +439,7 @@ def name():
         clear()
         if selection == 'yes'.lower():
             slowprint("Great! Now lets start!")
+            time.sleep(2)
             clear()
             menu()
         elif selection == 'no'.lower():
