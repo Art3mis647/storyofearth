@@ -343,22 +343,31 @@ def start():
         mediumprint("'exit': exit this menu")
         choice = input('')
         if choice == 'one'.lower():
+            clear()
             early()
         elif choice == 'two'.lower():
+            clear()
             cenozoic()
         elif choice == 'precambrian'.lower():
+            clear()
             precambrian()
         elif choice == 'paleozoic'.lower():
+            clear()
             paleozoic()
         elif choice == 'mesozoic'.lower():
+            clear()
             mesozoic()
         elif choice == 'cenozoic'.lower():
+            clear()
             cenozoic()
         elif choice == 'exit'.lower():
             clear()
             break
         else: 
             mediumprint('Invalid Input')
+            time.sleep(2)
+            clear()
+            
     return
 def era():
     clear()
