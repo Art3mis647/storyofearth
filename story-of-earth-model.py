@@ -447,6 +447,7 @@ def name():
             slowprint("wasn't expecting that one\n")
             time.sleep(2)
             slowprint("why don't we try that out again, but you say yes this time?")
+            time.sleep(2)
             clear()
         else:
             slowprint("Invalid Input")
