@@ -88,9 +88,9 @@ def credits():
     clear()
 
 def formation():
-    slowprint("It's New Year's day today, or 4.6 Bya, coincidentally the day earth formed! It's cold on this day in our world, but when Earth formed the temperature was very hot with temperatures averaging around 80°C.\n")
-    slowprint("The earth was at this time additionally very toxic for humans due to solar radiation and the atmosphere consisted of bits of water vapour and carbon dioxide, with no oxygen. \n")
-    slowprint("The earth was formed by gravity gradually pulling clumps of matter (dust and rocks) into a ball. Scientists believe there used to be around 100 planets in our solar system, but now there only exist 8\n")
+    slowprint("It's New Year's day today, or 4.6 Bya, coincidentally the day Earth formed! It's cold on this day in our world, but when Earth formed the temperature was very hot with temperatures averaging around 80°C.\n")
+    slowprint("The Earth was at this time additionally very toxic for humans due to solar radiation and the atmosphere consisted of bits of water vapour and carbon dioxide, with no oxygen. \n")
+    slowprint("The Earth was formed by gravity gradually pulling clumps of matter (dust and rocks) into a ball. Scientists believe there used to be around 100 planets in our solar system, but now there only exist 8\n")
     slowprint("However, there are people who believe that the Earth was formed by God through creation over the course of 7 days, which was quite the debate a few decades ago (although I wasn't alive then so I don't really know).\n")
     slowprint("To continue your journey through time, please press enter!")
     input('')
@@ -108,18 +108,18 @@ def thea():
     exit()
     return
 def layers():
-    slowprint("From January 8th to February 18th, or 4.5-4 Bya, the layers of the earth started forming.\n")
-    slowprint("The layers of the earth are the crust, mantle, and inner/outer core.\n")
+    slowprint("From January 8th to February 18th, or 4.5-4 Bya, the layers of the Earth started forming.\n")
+    slowprint("The layers of the Earth are the crust, mantle, and inner/outer core.\n")
     slowprint("These layers were formed as the the building blocks of Earth, the planetesimals collided and collapsed under their own gravity.\n")
     slowprint("At the time, the heaviest (and also magnetic) elements (iron and nickel) sunk to the core, whilst the lighter elements (silicon, oxygen and carbon) rose to form the mantel and crust.\n")
-    slowprint("As the magnetic core coalesced together, earth started forming its magnetic field, which protects us from solar winds.\n")
+    slowprint("As the magnetic core coalesced together, Earth started forming its magnetic field, which protects us from solar winds.\n")
     slowprint("To continue your journey through time, please press enter!")
     input('')
     clear()
 
     return
 def meteorites():
-    slowprint("From February 24th to March 12th, or 3.9-3.7 Bya, meteors shower the earth.\n")
+    slowprint("From February 24th to March 12th, or 3.9-3.7 Bya, meteors shower the Earth.\n")
     slowprint("These meteors, coming from the leftovers of the Solar System, brought with them water –in the form of ice– as well as salt.")
     slowprint("Thus, every drop of water on Earth is billions of years old, originating from these meteorites that came from outer space!\n")
     slowprint("These meteorites also brought with them atomic elements (such as carbon), chemicals (such as amino acids), and also destruction (duh).\n")
@@ -182,7 +182,7 @@ def nothing():
     clear()
 def loadofstuff1():
     slowprint("From October 28th to November 18th, or 800-540 Mya, a ton of stuff happens!\n")
-    slowprint("From October 28th to October 31st (free candy day), or 800-750 Mya, a force causes the crust of the earth to break up into plates. This force is the core of the earth.\n")
+    slowprint("From October 28th to October 31st (free candy day), or 800-750 Mya, a force causes the crust of the Earth to break up into plates. This force is the core of the Earth.\n")
     slowprint("On Halloween, or 750 Mya, these plates gradually drift together to form a supercontinent (one big continent), Rodinia, from the Russian word родина, meaning birthplace.\n")
     slowprint("However, the very next day (November 1st), or 740 Mya, Rodinia splits into two, like you and your middle school crush (ok that was probably mean sorry to whoever is reading this). If you're interested in this type of thing, there are loads of interesting YouTube videos showing the gradual shift of the continent over the years.\n")
     slowprint("From November 1st to November 2nd, or 740-720 Mya, Volcanoes pump huge amounts of CO2 into the atmosphere causing temperatures to drop. This is due to CO2 causing acid rain (also a modern day issue) through a chemical reaction, which causes the rocks to absorb all the CO2. Without CO2 to trap air in the atmosphere (through the Greenhouse Effect, also a modern day problem), the temperature drops to -60 degrees. The chemical equation for acid rain is CO2 + H2O (Carbon + Water) = H2CO3 (Carbonic Acid).\n")
@@ -250,7 +250,7 @@ def loadofstuff6():
     slowprint("On December 20th, or 130 Mya, the first flowering plants start to form. The advantage of flowers is that they help to attract pollen.\n")
     slowprint("On December 21st, or 112 Mya, the first snakes appeared.")
     slowprint("On December 22nd, or 100 Mya, the first placental mammals (completing embryotic development within the placenta) form, such as us humans, whales, and elephants. The advantage of being placental is that you give birth to a relatively mature and large fetus, as the placenta nourishes and protects the fetus.\n")
-    slowprint("On Christmas day, of 65 Mya, the final mass extinction occurs. An asteroid from the Oort Cloud, later known as the Chicxulub (after a Yucatec Mayan word) lands in the Gulf of Mexico killing 76% of all species and all of the dinosaurs. Debris flew everywhere, earthquakes shook the Earth, tsunamis battered the coast, dust and magma spread across the planet, and the temperature reached 500 degrees. Sunlight was blocked from reaching the Earth.\n") 
+    slowprint("On Christmas day, of 65 Mya, the final mass extinction occurs. An asteroid from the Oort Cloud, later known as the Chicxulub (after a Yucatec Mayan word) lands in the Gulf of Mexico killing 76% of all species and all of the dinosaurs. Debris flew everywhere, Earthquakes shook the Earth, tsunamis battered the coast, dust and magma spread across the planet, and the temperature reached 500 degrees. Sunlight was blocked from reaching the Earth.\n") 
     slowprint("Interestingly enough, this had such a large impact that we can see where it happened within the geologic record. Indeed, the dinosaurs who had come to dominate the Earth for so long, were wiped out not by anyone from our planet, but an asteroid from far out in space.\n")
     slowprint("To embark on another journey through time, please press enter for the last time. It's been a wonderful experience traveling with you through time. Farewell!")
     input('')
